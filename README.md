@@ -1,6 +1,7 @@
+<<<<<<< HEAD
 # Splendidhairs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+A landing page for splendid hairs.This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
 ## Development server
 
