@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+// This was to make the navbar changr from transparent to solid background
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 200px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}

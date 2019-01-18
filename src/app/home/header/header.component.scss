@@ -63,3 +63,36 @@ button{
     width: 96.66666666666666%;
     color: #FFF;
 }
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+div.arrow::before{
+  content: '╲╱';
+  color: #fff;
+  position: absolute;
+  opacity: 0.7;
+  text-shadow: 0 0 6px rgba(0,0,0,0.5);
+  font-size: 20px;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -30px;
+  animation: bounce 1s ease infinite;
+}
+
+// @keyframes bounce {
+//   50% {
+//     transform: translateY(-50%);
+//   }
+//   100% {
+//     transform: translateY(0);
+//   }
+// }

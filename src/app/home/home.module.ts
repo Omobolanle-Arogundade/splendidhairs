@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
+import { AboutComponent } from './main/about/about.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, MainComponent, FooterComponent, NavigationComponent],
+  declarations: [HomeComponent, HeaderComponent, MainComponent, FooterComponent, NavigationComponent, AboutComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
