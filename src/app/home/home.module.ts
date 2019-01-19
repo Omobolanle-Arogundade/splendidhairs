@@ -13,6 +13,7 @@ import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
 import { AboutComponent } from './main/about/about.component';
+import { GalleryComponent } from './main/gallery/gallery.component';
 
 const routes: Routes = [
   {
@@ -27,7 +28,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, MainComponent, FooterComponent, NavigationComponent, AboutComponent],
+  declarations: [HomeComponent, HeaderComponent, MainComponent, FooterComponent, NavigationComponent, AboutComponent, GalleryComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
@@ -35,7 +36,7 @@ const routes: Routes = [
     WavesModule,
     CarouselModule,
     ButtonsModule,
-    CollapseModule
+    CollapseModule,
   ]
 })
 export class HomeModule { }
